@@ -63,11 +63,9 @@ const Contact = () => {
       </p>
 
 
-      <p>
-        <a className="email-link" target="_top" href={`mailto:${email}`}  >
-          Say Hello
-        </a>
-      </p>
+      <a className="email-link" href="mailto:raghu892670@gmail.com">
+        Say Hello
+      </a>
     </StyledContactSection>
   );
 };

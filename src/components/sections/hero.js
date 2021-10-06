@@ -70,14 +70,12 @@ const Hero = () => {
     </>
   );
   const five = (
-    <p>
-      <a
-        className="email-link"
-        target="_top"
-        href={`mailto:${email}`}>
-        Say Hello
-      </a>
-    </p>
+    <a
+      className="email-link"
+      href="mailto:raghu892670@gmail.com"
+    >
+      Say Hello
+    </a>
   );
 
   const items = [one, two, three, four, five];
