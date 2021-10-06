@@ -62,9 +62,12 @@ const Contact = () => {
         If your interested say hi, I’ll try my best to get back to you!
       </p>
 
-      <a className="email-link" target="_top" href={`mailto:${email}`}  >
-        Say Hello
-      </a>
+
+      <p>
+        <a className="email-link" target="_top" href={`mailto:${email}`}  >
+          Say Hello
+        </a>
+      </p>
     </StyledContactSection>
   );
 };

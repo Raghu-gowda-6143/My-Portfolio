@@ -35,7 +35,7 @@ const StyledHeroSection = styled.section`
     line-height: 0.9;
   }
 
-  p {
+  .detailts {
     margin: 20px 0 0;
     max-width: 540px;
   }
@@ -64,18 +64,20 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
-      <p>
+      <p className="details">
         I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      target="_top"
-      href={`mailto:${email}`}>
-      Say Hello
-    </a>
+    <p>
+      <a
+        className="email-link"
+        target="_top"
+        href={`mailto:${email}`}>
+        Say Hello
+      </a>
+    </p>
   );
 
   const items = [one, two, three, four, five];
