@@ -73,6 +73,7 @@ const Hero = () => {
     <a
       className="email-link"
       href={`mailto:${email}`}
+      rel="nofollow"
       target="_top">
       Say Hello
     </a>
